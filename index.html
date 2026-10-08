@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 	
+    <meta charset="UTF-8">
+    <title>Mohamed akoum</title>
+    
+    <!-- THIS IS YOUR CSS DESIGN BLOCK -->
+    <style>
+        /* 1. Design Group for the Whole Page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333333;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+
+        /* 2. Design Group for the Container Box */
+        .wrapper {
+            max-width: 450px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* 3. Design Group for  Buttons */
+        button {
+            width: 90%;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #007bff; /* Nice blue color */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s ease; /* Makes the hover look smooth */
+        }
+
+        /* 4. Special Rule: What happens when someone hovers over a button */
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: scale(1.02);    /* Slightly pops out */
+        }
+		
+		
+		.instagram-btn {
+			background-color: #DD2A7B; 
+			color: white;
+		}
+		
+		
+		
+		.youtube-btn {
+			background-color: #FF0000; /* YouTube Red */
+			color: white;
+		}
+		
+		.linkedin-btn {
+			background-color: #0A66C2;
+			color:white;
+		}
+        /* 5. Clean up the hyperlinks so they don't look blue/underlined */
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wrapped everything in a container to make it look like a modern card -->
+    <div class="wrapper">
+
+        <!-- PROFILE HEADER -->
+        <header>
+            <h1>Welcome</h1>
+            <p>Connect with me across the web!</p>
+        </header>
+
+        <!-- SOCIAL MEDIA LINKS -->
+        <main>
+            <!-- Even though there are 4 different links, they ALL use the "button" tag -->
+            <!-- Because of our CSS design group, they will all look identical! -->
+            <a href="https://instagram.com" target="_blank">
+                <button type="button" class="instagram-btn"> Follow me on Instagram</button>
+            </a>
+
+            <a href="https://youtube.com" target="_blank">
+                <button type="button" class="youtube-btn"> Subscribe on YouTube</button>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <button type="button" class="linkedin-btn"> Connect on LinkedIn</button>
+            </a>
+
+        </main>
+
+        <!-- CONTACT / FOOTER -->
+        <footer>
+            <hr style="border: 0; height: 1px; background: #eee; margin: 20px 0;">
+            <p>Email: <strong>akoumm7@gmail.com</strong></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
